@@ -1,0 +1,8 @@
+prefix=/home/anhtat/my_control/devel
+
+Name: my_test
+Description: Description of my_test
+Version: 0.0.0
+Cflags: -I/home/anhtat/my_control/devel/include -I/home/anhtat/my_control/src/my_test/include
+Libs: -L${prefix}/lib -lmy_test
+Requires: roscpp rospy std_msgs

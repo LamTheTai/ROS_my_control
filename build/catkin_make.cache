@@ -1,0 +1,2 @@
+my_service:my_test:ros_mobile_robot:service_client_server
+-DCATKIN_DEVEL_PREFIX=/home/anhtat/my_control/devel -DCMAKE_INSTALL_PREFIX=/home/anhtat/my_control/install -G Unix Makefiles

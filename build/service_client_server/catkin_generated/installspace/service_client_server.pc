@@ -1,0 +1,8 @@
+prefix=/home/anhtat/my_control/install
+
+Name: service_client_server
+Description: Description of service_client_server
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

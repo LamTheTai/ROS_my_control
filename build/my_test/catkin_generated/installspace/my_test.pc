@@ -1,0 +1,8 @@
+prefix=/home/anhtat/my_control/install
+
+Name: my_test
+Description: Description of my_test
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmy_test
+Requires: roscpp rospy std_msgs
